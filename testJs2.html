@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script>
+if ("onhashchange" in window) {
+    alert("The hashchange event is work.");
+} else {
+    alert("Whoops! I don't support the hashchange event!!!");
+}
+
+try {
+    return window.onhashchange;
+} catch(e) {
+    alert('not support');
+}
+
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
